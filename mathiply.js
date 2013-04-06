@@ -36,8 +36,5 @@ window.mathiply=(function()
  
  }
  
- 
  return mathiply;
- alert("hello world");
-
 })();
