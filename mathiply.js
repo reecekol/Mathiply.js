@@ -31,8 +31,35 @@ window.mathiply=(function()
   mod:function(a,b)
   {
     return(a%b);
-  }
- 
+  },
+  
+  abs:function(a){
+    if(a<0)
+	{
+	  return -a;
+	}
+	
+	else {
+	  return  a;
+    }
+  },
+  
+  pow:function(a,b)
+ {
+    if(b===0)
+	{
+	  return 1;
+	}
+	
+	result=1;
+	for(i=1; i<=b; i++)
+	{
+	  result*=a;
+	}
+	
+	return result;
+	
+ }
  
  }
  
